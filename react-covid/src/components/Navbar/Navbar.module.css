@@ -1,0 +1,31 @@
+/*small screen*/
+.container{
+    background-color: #06D6A0;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column  ;
+}   
+
+.navbar__brand{
+    font-size: 3.025rem;
+}
+
+.navbar__item{
+    margin-bottom: 1rem;
+}
+
+/*medium screen*/
+@media (min-width: 768px) {  
+    .container{
+        padding: 0 6rem;
+    }
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+}

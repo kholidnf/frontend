@@ -1,0 +1,34 @@
+/* Small Screen */
+.container {
+    background-color: #06D6A0 ;
+    color: #fff;
+    padding: 0 2rem;
+  }
+
+.footer{
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+}   
+
+.footer__title{
+  font-size: 2.441rem;
+}
+
+.footer__author{
+    font-size: 1.563rem;
+}
+/*medium screen*/
+@media (min-width: 768px) {
+  .container{
+    padding: 0 6rem;
+  }
+  .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+  .footer__left{
+        text-align: left;
+    }
+}

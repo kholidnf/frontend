@@ -1,0 +1,47 @@
+/*small screen*/
+.container{
+    margin: 1rem;
+  }
+
+.provinces{
+    text-align: center;
+}
+.provinces__table{
+    margin: auto;
+}
+.provinces__table__head{
+    color: #06D6A0;
+}
+.provinces__title{
+    color: #06D6A0;
+    margin-bottom: 1rem;
+    font-size: 3.815rem;
+}
+  
+.provinces__description{
+    color: #118AB2;
+    margin-bottom: 1.5rem;
+}
+.provinces__table__container{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* Medium Screen */
+@media (min-widht:768px){
+    .provinces__table{
+        width: 90%;
+       }
+   
+}
+/* Large Screen */
+@media (min-width: 992px) {
+    .container{
+        padding: 0 6rem;
+
+    }
+    
+  
+}

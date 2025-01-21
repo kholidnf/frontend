@@ -1,0 +1,30 @@
+/*small screen*/
+.navbar__list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__item{
+    margin-bottom: 1rem;
+    font-size: 1.563rem;
+}
+
+.navbar__link{
+  text-decoration: none;
+  color: #fff;
+}
+
+/*medium screen*/
+@media (min-width: 768px) {
+    
+      .navbar__list {
+        flex-direction: row;
+      }
+
+      .navbar__item {
+        margin: 0 1rem;
+      }     
+}
